@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    color: #000;
+}
+
+@media (max-width:1024px) {
+    body {
+        align-items: center;
+    }
+}
+
+/* Container section */
+
+.container {
+    margin: 40px auto;
+}
+
+/* Nav Bar */
+
+.brand-name {
+    color: #0169D9 !important;
+    font-size: 25px;
+}
+
+.nav-item {
+    margin: auto 10px 0 20px;
+}
+
+.navbar {
+    margin-bottom: 40px;
+    padding-left: 0;
+}
+
+.get-started-button {
+    border-radius: 20px;
+}
+
+/* Header */
+
+.main-heading {
+    font-size: 30px;
+    line-height: 1.5;
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-right: 0;
+    color: #0169D9;
+}
+
+.heading-image {
+    width: 100%;
+}
+
+.header-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Download Buttons */
+
+.download-button {
+    margin: 20px 10px 40px 0;
+    font-size: 20px;
+}
+
+/* App Features */
+
+.app-feature-heading {
+    align-content: center;
+    margin: 60px 0 20px;
+    color: #0169D9;
+}
+
+.feature-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-features-image {
+    width: 40%;
+}
+
+.features {
+    margin: 30px auto;
+}
+
+.feature-section-image {
+    display: flex;
+}
+
+.features-image {
+    width: 80%;
+}
+
+/* Gallery */
+
+.gallery-images {
+    display: flex;
+}
+
+.g-img {
+    width: 15.9%;
+    padding: 0 5px;
+}
+
+@media (min-width:960px) {
+    .g-img {
+        width: 16.3%;
+    }
+}
+
+
+.g-img:hover {
+    border: 3px solid #0169D9;
+    border-radius: 18px;
+    padding: 0;
+}
+
+.carousel {
+    padding-bottom: 80px;
+}
+
+/* Indicators */
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #000;
+  }
