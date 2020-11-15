@@ -71,8 +71,34 @@ body {
 /* App Features */
 
 .heading {
-    margin: 60px 0 20px;
+    margin: 40px 0 20px;
     color: #0169D9;
+}
+
+.paragraph {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.features-container {
+    display: flex !important;
+    margin-bottom: 20px;
+}
+
+.features-left-section, .features-right-section {
+    display: flex;
+    margin-left: 20px;
+}
+
+.icon {
+    font-size: 30px;
+    margin-right: 10px;
+    color: #0169D9;
+}
+
+.features-description-heading {
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
 .feature-image {
@@ -95,6 +121,18 @@ body {
 
 .features-image {
     width: 80%;
+}
+
+.points {
+    list-style: none;
+  }
+  
+.points li:before {
+    content: '✔️';
+}
+
+.italic-description {
+    font-style: italic;
 }
 
 /* Gallery */
@@ -136,10 +174,44 @@ body {
 
   /* Testimonials */
 
+  #testimonials {
+      margin: 0 auto;
+  }
+
 .testimonials, .news-letter{
     background-color: #e3edf8;
     padding: 20px 0;
     margin: 40px 0;
+}
+
+.testimonial-container {
+    display: flex;
+}
+
+.testimonial-details {
+    background-color: #fff;
+    position: relative;
+}
+
+.testimonial-img {
+    position: absolute;
+    width: 75px;
+    top: 20px;
+    left: -35px;
+}
+
+.testimonial-details {
+    margin: 30px;
+    padding: 20px 20px 10px 60px;
+}
+
+.name {
+    margin-bottom: 0;
+}
+
+.role {
+    margin-top: 0;
+    color: grey;
 }
 
 .container {
