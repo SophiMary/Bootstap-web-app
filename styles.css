@@ -178,7 +178,7 @@ body {
       margin: 0 auto;
   }
 
-.testimonials, .news-letter{
+.testimonials, .news-letter, .faq{
     background-color: #e3edf8;
     padding: 20px 0;
     margin: 40px 0;
@@ -212,6 +212,33 @@ body {
 .role {
     margin-top: 0;
     color: grey;
+}
+
+/* FAQ */
+
+.one, .two, .three, .four {
+    display: none;
+}
+
+#one, #two, #three, #four {
+    background-color: #fff;
+    padding: 10px;
+}
+
+.faq-section {
+    background-color: #fff;
+    margin: 20px 100px;
+    padding: 30px;
+}
+
+.faq-question-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.one-faq-question, .two-faq-question, .three-faq-question, .four-faq-question {
+    display: flex;
+    justify-content: space-between;
 }
 
 .container {
