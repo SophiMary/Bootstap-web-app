@@ -301,10 +301,49 @@ ul .strike-through:before {
     justify-content: space-between;
 }
 
-.container {
-    align-content: center;
+/* Contact Us */
+
+.form-control {
+    display: block;
+    margin: 5px 10px 15px;
+}
+
+.form-submit {
+    display: flex;
+    justify-content: center;
+}
+
+.form-submit-button {
+    border-radius: 30px;
+    padding: 5px 20px;
+    border: 1px solid #0169D9;
+    color: #0169D9;
+    margin: 20px;
+    background-color: #fff;
+}
+
+.contact-details {
+    display: flex;
+}
+
+.contact-details-left, .contact-details-right {
+    background-color: #e3edf8;
+    padding: 40px;
+    text-align: center;
+    flex:1;
+    margin: 5px
+}
+
+.contact-section {
+    display: flex;
+}
+
+.contact-points {
+    margin-bottom: 1.5px;
+    font-size: 13px
 }
 
 .letter {
     color: #000;
 }
+

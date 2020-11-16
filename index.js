@@ -13,7 +13,6 @@ function clicked(button) {
     })
 }
 
-
 (function buttons() {
     clicked("one");
     clicked("two");
@@ -22,7 +21,7 @@ function clicked(button) {
 })();
 
 
-function clicked(button) {
+function pricingHover(button) {
     document.getElementsByClassName(button)[0].addEventListener("mouseover", () => {
         document.getElementsByClassName(`${button}-pricing-button`)[0].style.backgroundColor = "#0169D9"
     })
@@ -31,9 +30,8 @@ function clicked(button) {
     })
  }
  
- 
- (function buttons() {
-     clicked("free");
-     clicked("business");
-     clicked("developer");
+ (function hover() {
+     pricingHover("free");
+     pricingHover("business");
+     pricingHover("developer");
  })();
