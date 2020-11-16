@@ -20,3 +20,20 @@ function clicked(button) {
     clicked("three");
     clicked("four");
 })();
+
+
+function clicked(button) {
+    document.getElementsByClassName(button)[0].addEventListener("mouseover", () => {
+        document.getElementsByClassName(`${button}-pricing-button`)[0].style.backgroundColor = "#0169D9"
+    })
+    document.getElementsByClassName(button)[0].addEventListener("mouseout", () => {
+        document.getElementsByClassName(`${button}-pricing-button`)[0].style.backgroundColor = "#000"
+    })
+ }
+ 
+ 
+ (function buttons() {
+     clicked("free");
+     clicked("business");
+     clicked("developer");
+ })();

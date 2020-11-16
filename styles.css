@@ -14,6 +14,10 @@ body {
     }
 }
 
+.space {
+    margin-left: 15px;
+}
+
 /* Container section */
 
 .container {
@@ -212,6 +216,63 @@ body {
 .role {
     margin-top: 0;
     color: grey;
+}
+
+/* Pricing */
+
+.card-header {
+    background-color: #fff;
+    border: none;
+}
+
+.card-title {
+    color: #0169D9;
+}
+
+.pricing-name {
+    color: grey
+}
+
+.plan {
+    box-shadow: 0 2px 22px rgba(10, 10, 10, 0.42);
+    background: #fff;
+    border-radius: 20px;
+    margin: 20px 0;
+    padding: 30px;
+}
+    
+.plan:hover {
+    margin: 6px 0;
+    height: 100%;
+    position: relative;
+    z-index: 99;
+}
+
+.list-unstyled {
+    text-align: justify;
+}
+    
+.pricing-section {
+    padding: 0;
+}
+
+.last-points {
+    text-decoration: line-through;
+    color: grey;
+}
+
+ul .strike-through:before {
+    content: '╳';
+}
+
+.pricing-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.free-pricing-button, .business-pricing-button, .developer-pricing-button {
+    border-radius: 20px;
+    width: 200px;
 }
 
 /* FAQ */
