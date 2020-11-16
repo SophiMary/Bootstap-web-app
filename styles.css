@@ -351,7 +351,12 @@ ul .strike-through:before {
 
 .contact-points {
     margin-bottom: 1.5px;
-    font-size: 13px
+    font-size: 13px;
+    color: #000;
+}
+
+.contact-points a {
+    color: #000;
 }
 
 .contact.form {
@@ -430,4 +435,43 @@ footer span {
     font-size: 25px;
     padding: 4px;
     border-radius: 10px;
+}
+
+.copyright-section {
+    background-color: var(--primary);
+    position: relative;
+    margin: 0;
+    padding: 1px;
+}
+
+.copyright {
+    font-size: 15px;
+    color: #000;
+    font-weight: light;
+}
+
+.copyright-sentence {
+    font-size: 12px;
+    margin: 16px auto;
+}
+
+.footer-bolder {
+    font-weight: bold;
+}
+
+.copyright-icon {
+    position: absolute;
+    top: 40%;
+    right: 2%;
+    border: none;
+    border-radius: 30px;
+    padding: 5px 10px;
+    background-color: var(--blue);
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.footer-margin {
+    padding: 8px auto 5px;
+    margin: 5px auto;
 }
