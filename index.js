@@ -27,7 +27,7 @@ function clicked(button) {
         document.getElementsByClassName(`${button}-pricing-button`)[0].style.backgroundColor = "#0169D9"
     })
     document.getElementsByClassName(button)[0].addEventListener("mouseout", () => {
-        document.getElementsByClassName(`${button}-pricing-button`)[0].style.backgroundColor = "#000"
+        document.getElementsByClassName(`${button}-pricing-button`)[0].style.backgroundColor = "#23282B"
     })
  }
  
