@@ -150,13 +150,16 @@ body {
 }
 
 .g-img {
-    width: 15.9%;
-    padding: 0 8px;
+    width: 16.3%;
 }
 
-@media (min-width:960px) {
+@media (max-width:960px) {
+    .each-img-screen {
+        margin: auto 5%;
+    }
     .g-img {
-        width: 16.3%;
+        width: 30%;
+        padding: 0 8px;
     }
 }
 
@@ -187,12 +190,18 @@ body {
 
 .testimonials, .news-letter, .faq{
     background-color: var(--primary);
-    padding: 15px 0;
+    padding: 15px 10px;
     margin: 20px 0;
 }
 
 .testimonial-container {
     display: flex;
+}
+
+@media (max-width:520px) {
+    .testimonial-container {
+        display: block;
+    }
 }
 
 .testimonial-details {
@@ -304,6 +313,12 @@ ul .strike-through:before {
     padding: 30px;
 }
 
+@media (max-width:520px) {
+    .faq-section {
+        margin: 20px 20px;
+    }
+}
+
 .faq-question-section {
     display: flex;
     justify-content: space-between;
@@ -395,7 +410,7 @@ ul .strike-through:before {
 .subcribe-button {
     position: absolute;
     top: 0;
-    right: 30px
+    right: 20px
 }
 
 /* Footer */
@@ -403,6 +418,12 @@ ul .strike-through:before {
 .footer-section {
     display: flex;
     justify-content: space-around;
+}
+
+@media (max-width:520px) {
+    .footer-section {
+        display: block;
+    }
 }
 
 .assignment {
